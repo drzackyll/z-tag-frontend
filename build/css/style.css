@@ -1,0 +1,111 @@
+.NavBar {
+  font-family: 'Creepster', cursive;
+  color: #eee;
+  background: url("/images/inflicted.png");
+  display: table;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.NavBar h1 {
+  float: left;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  color: #F75448;
+  font-size: 5rem;
+}
+
+.NavBar ul {
+  margin-top: 2rem;
+  margin-right: 2.5rem;
+  }
+
+.NavBar li {
+  float: right;
+  display: table-cell;
+  margin: 1.5rem;
+  list-style: none;
+}
+
+.NavBar a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.UserScore h2 {
+  text-align: center;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.UserScore th {
+  text-align: center;
+  font-size: 200%;
+}
+
+.UserScore th#human {
+  color: #287FCC;
+}
+
+.UserScore th#zombie {
+  color: #F75448;
+}
+
+.UserScore th {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.PieChart h2 {
+  text-align: center;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.PieChart table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.PieChart th {
+  text-align: center;
+}
+
+.Leaderboard table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.Human h2 {
+  text-align: center;
+}
+
+.Human tbody td {
+  font-size: 150%;
+}
+
+.Human tbody tr:first-child td {
+  color: #287FCC;
+  font-weight: bold;
+}
+
+.Zombie h2 {
+  text-align: center;
+}
+
+.Zombie tbody td {
+  font-size: 150%;
+}
+
+.Zombie tbody tr:first-child td {
+  color: #F75448;
+  font-weight: bold;
+}
+
+.no-bottom {
+  border-bottom: none;
+}
+
+body {
+  background: #eee;
+}
